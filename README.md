@@ -1,15 +1,12 @@
-# Basic Sample Hardhat Project
+# Solidity Warehouse
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+### Welcome to the Solidity Warehouse
 
-Try running some of the following tasks:
+This project is as of now in the beginner stages.
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+Here is how I see it taking shape.
+This will be a hardhat project. 
+I will deploy the contracts to Polygon Mumbai testnet,
+and all the contracts will be verified using Etherscan API in hardhat. A very convenient way to Verify contracts.
+
+In the end, the project should have close to a 100 contracts on various services like OpenZeppelin and Chainlink. The contracts will be segregated neatly, and the users will have a reach source of solidity code to help write their ow nsmart contracts.
